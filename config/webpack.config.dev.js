@@ -15,7 +15,7 @@ const devWebpackConfig = merge(BaseConfig, {
     pathinfo: true,
   },
   devServer: {
-    open: false,
+    open: true,
     hot: false,
     compress: true,
     static: {
